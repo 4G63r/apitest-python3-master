@@ -84,6 +84,6 @@ for row in range(2, rows + 1):
             exec("suite.addTest(%s('%s'))" % (case_id, case_name))
 
 now = time.strftime('%Y%m%d_%H%M%S')
-# with open('./report/%s.html' % now, 'wb') as f:
-with open('./report/index.html', 'wb') as f:
+with open('./report/%s.html' % now, 'wb') as f:
+# with open('./report/index.html', 'wb') as f:
     HTMLTestReportCN.HTMLTestRunner(stream=f, title='接口自动化报告').run(suite)
