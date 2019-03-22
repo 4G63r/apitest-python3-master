@@ -10,3 +10,7 @@ class APITest(unittest.TestCase):
 
     def test_02(self):
         print(2222)
+
+
+if __name__ == '__main__':
+    unittest.main()
