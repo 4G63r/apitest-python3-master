@@ -1,6 +1,6 @@
 import unittest
 from tests import APITest
-import HTMLTestReportCN
+from base import HTMLTestReportCN
 import time
 
 suite = unittest.TestSuite()
